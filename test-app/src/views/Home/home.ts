@@ -76,7 +76,7 @@ export default defineComponent({
         data.push({
           lng: -84.512511 + (.01 * i),
           lat: 39.396083 - (.01 * i),
-          postId: 3
+          postId: i + 2
         })
       }
 
